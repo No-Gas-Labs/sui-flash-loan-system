@@ -1,0 +1,55 @@
+{
+  "name": "sui-flash-loan-system",
+  "version": "1.0.0",
+  "description": "Flash Loan System for Sui blockchain with Move contracts and TypeScript orchestrator",
+  "main": "flash_loan/orchestrator/orchestrator.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "dev": "ts-node flash_loan/orchestrator/index.ts",
+    "start": "node dist/orchestrator/index.js",
+    "lint": "eslint flash_loan/orchestrator/**/*.ts",
+    "lint:fix": "eslint flash_loan/orchestrator/**/*.ts --fix",
+    "format": "prettier --write flash_loan/orchestrator/**/*.ts",
+    "deploy": "./flash_loan/scripts/deploy.sh deploy"
+  },
+  "keywords": [
+    "sui",
+    "flash-loan",
+    "arbitrage",
+    "move",
+    "typescript",
+    "defi"
+  ],
+  "author": "Flash Loan System Team",
+  "license": "MIT",
+  "dependencies": {
+    "@mysten/sui.js": "^0.54.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "roots": ["<rootDir>/flash_loan/orchestrator"],
+    "testMatch": ["**/*.test.ts"],
+    "collectCoverageFrom": [
+      "flash_loan/orchestrator/**/*.ts",
+      "!flash_loan/orchestrator/**/*.d.ts",
+      "!flash_loan/orchestrator/**/*.test.ts"
+    ]
+  }
+}

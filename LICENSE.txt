@@ -1,0 +1,67 @@
+No_Gas_Labs AI-Orchestrated Build License
+
+Version 1.0 - October 2025
+
+Copyright (c) 2025 No_Gas_Labs. All Rights Reserved.
+
+IMPORTANT: This software represents proprietary intellectual property
+developed through AI-orchestrated processes under the Vibe Coding Protocol.
+This license grants specific usage rights while maintaining strict
+protection of the underlying AI orchestration methodology.
+
+LICENSE TERMS:
+
+1. GRANT OF LICENSE
+   Subject to the terms and conditions of this License, No_Gas_Labs grants
+   you a non-exclusive, non-transferable license to use, reproduce, and
+   modify this software solely for:
+   - Personal educational purposes
+   - Non-commercial research and development
+   - Demonstration of the Vibe Coding Protocol capabilities
+
+2. RESTRICTIONS
+   You may NOT:
+   - Use this software in any commercial application without explicit written
+     permission from No_Gas_Labs
+   - Redistribute, sublicense, or transfer this software to third parties
+   - Remove or alter any copyright notices, license headers, or attribution
+   - Reverse engineer, decompile, or attempt to extract the underlying
+     AI-orchestration methodology or prompts
+   - Create derivative works that compete with or replicate the core
+     functionality of the Vibe Coding Protocol
+
+3. COMMERCIAL USE
+   Commercial use requires a separate Commercial License Agreement with
+   No_Gas_Labs. Contact: licensing@no-gas-labs.ai
+
+4. ATTRIBUTION
+   Any use of this software must include:
+   - Clear attribution to "No_Gas_Labs AI-Orchestrated Build"
+   - Reference to the Vibe Coding Protocol
+   - Link to the original repository: https://github.com/No-Gas-Labs
+
+5. MODIFICATIONS
+   Modifications must maintain the original license and attribution.
+   Modified versions must clearly indicate changes and maintain a changelog
+   referencing the original commit hash.
+
+6. DISCLAIMER
+   This software is provided "AS IS" without warranties of any kind.
+   No_Gas_Labs is not liable for any damages arising from use of this software.
+
+7. TERMINATION
+   This license terminates automatically upon violation of any terms.
+   Upon termination, you must destroy all copies and derivatives.
+
+8. GOVERNING LAW
+   This license is governed by the laws of the jurisdiction where
+   No_Gas_Labs is registered, with dispute resolution through arbitration.
+
+For commercial licensing inquiries:
+Email: licensing@no-gas-labs.ai
+Web: https://no-gas-labs.ai/licensing
+
+AI-Orchestration Methodology Notice:
+The development process used to create this software involved proprietary
+AI orchestration techniques under the Vibe Coding Protocol. These methods
+are confidential and protected trade secrets of No_Gas_Labs.

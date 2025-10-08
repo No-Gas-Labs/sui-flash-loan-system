@@ -1,0 +1,17 @@
+[package]
+name = "FlashLoanSystem"
+version = "0.1.0"
+authors = ["Flash Loan System Team"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+
+[addresses]
+flash_loan = "0x0"
+sui = "0x2"
+
+[dev-dependencies]
+# Add any test dependencies here
+
+[dev-addresses]
+# Add any dev-specific addresses here
